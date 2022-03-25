@@ -1,0 +1,145 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e5e5f0;
+}
+
+h1 {
+    align-content: center;
+}
+
+h3 {
+    align-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+p {
+    padding-bottom: 30px;
+}
+
+.principal {
+    margin: 2px;
+    padding: 0.5px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(241, 238, 238);
+}
+
+ .contato {
+     padding-bottom: 15px;
+ }
+
+.formulario {
+    background-color: rgb(235, 235, 235);
+    margin: 15px;
+    padding: 4px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.titulo{
+    padding-top: 20px;
+    padding-bottom: 16px;
+    margin: 40px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudo{
+    margin-top: 10px;
+    margin-left: 5px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.imagem {
+    align-items: center;
+    margin: 50px;
+    flex-direction: row;
+    width: 440px;
+    height: 440px;
+}
+
+.containner {
+    align-items: center;
+}
+
+.img-carousel {
+    height: 60vh;
+    width: 100%;
+    display: block;
+    flex-direction: row;
+}
+
+.form {
+    background-color: rgb(235, 235, 235);
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.125rem;
+    padding: 8px;
+}
+
+.botao-form {
+    display: block;
+    padding: 1rem;
+    background: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.form input,
+.form textarea {
+    padding: 0.2rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    transition: border-color, box-shadow 0.2s;
+}
+
+.form textarea {
+    min-height: 8rem;
+    resize: vertical;
+}
+
+.form label{
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus{
+    outline: none;
+    border-color: #f6f6f6;
+    box-shadow: 0 0 0 3px #000000;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 66px;
+}
+
+
+
+
+
+
+
+    
+    
+
+
